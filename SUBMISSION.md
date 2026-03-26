@@ -20,7 +20,7 @@
 | Case | Repository URL |
 |---|---|
 | Case 1 — Serverless Dockerized Service | https://github.com/Malavshah999/devops-assignment-case1.git |
-| Case 2 — Secure Bucket Storage | Included in the same repository under `/case2/` |
+| Case 2 — Secure Bucket Storage | https://github.com/Malavshah999/devops-assignment-overall.git|
 
 ---
 

@@ -311,4 +311,4 @@ Solution: A NAT Gateway was created in the public subnet and a route was added t
 
 **End of Documentation**
 
-_DevOps Cloud Infrastructure Assignment - Malav_
+_DevOps Cloud Infrastructure Assignment - by Malav_

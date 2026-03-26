@@ -36,7 +36,8 @@ This assignment covers two infrastructure cases, both deployed on Amazon Web Ser
 
 The application is designed so that the container running the actual code is NEVER directly reachable from the internet. All traffic must flow through the CDN and Load Balancer layers.
 
-<IMAGE HERE>
+<img width="555" height="643" alt="Screenshot 2026-03-26 145543" src="https://github.com/user-attachments/assets/8f7f2387-d166-4359-b834-0e604cfe3995" />
+
 
 Fig (3.1 Figma chart of Architecture overview)
 
@@ -138,7 +139,8 @@ Amazon Elastic Container Registry was created to store Docker images:
 ## 3.5 CI/CD Pipeline
 
 A GitHub Actions workflow was implemented to fully automate the build and deployment process on every code push.
-<IMAGE HERE>
+<img width="576" height="340" alt="Screenshot 2026-03-26 152336" src="https://github.com/user-attachments/assets/e95b1ca7-01a2-4e83-babb-3b328d6ddb18" />
+
 
 | **Pipeline Stage** | **Action**                                            | **Tool**                                      |
 | ------------------ | ----------------------------------------------------- | --------------------------------------------- |
@@ -200,7 +202,8 @@ CloudWatchFullAccess
 ## 4.1 Architecture Overview
 
 The objective was to serve static content (HTML, CSS, images) to the public WITHOUT ever allowing direct access to the S3 bucket URL. All access must go through CloudFront using Origin Access Control.
-<IMAGE HERE>
+
+<img width="433" height="357" alt="Screenshot 2026-03-26 171343" src="https://github.com/user-attachments/assets/56ae4d9e-db19-4d74-859f-7b6e51e17a34" />
 
 ## 4.2 S3 Bucket Configuration
 
